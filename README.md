@@ -1,5 +1,9 @@
 # dash-covid-measures
 
+###
+
+* App is currently running on Heroku: https://dash-covid-measures.herokuapp.com/ 
+
 ### Team
 
 * This dashboard is created by the research group [AIDA](https://aida.ugent.be) of Ghent University
@@ -39,3 +43,8 @@ https://towardsdatascience.com/how-to-deploy-your-dash-app-with-heroku-a4ecd25a6
 3. heroku ps:scale web=1
 
 your app should be available from: https://`unique-app-name`.herokuapp.com
+
+## Issues
+
+* Start project => create project => from VCS
+* Heroku crashes during startup => **gunicorn**: command not found => put in requirements file!
