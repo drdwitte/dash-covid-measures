@@ -5,8 +5,6 @@ import dash_html_components as html
 from dash.dependencies import Output, Input, State
 import plotly.graph_objects as go
 
-
-
 import dash_layout.dashboard_html as divs
 import dash_layout.dashboard_controls as controls
 import dash_plots.charts as charts
