@@ -5,12 +5,7 @@ import dash_html_components as html
 from dash.dependencies import Output, Input, State
 import plotly.graph_objects as go
 
-# data prep
-import pandas as pd
-import numpy as np
-from pathlib import Path
-import matplotlib.pyplot as plt
-import time
+
 
 import dash_layout.dashboard_html as divs
 import dash_layout.dashboard_controls as controls
